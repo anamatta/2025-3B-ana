@@ -16,3 +16,21 @@
     --fonte-primaria:"Roboto Slab", serif;
     --fonte-segundaria:"Dancing Script", cursive;
 }
+body{
+    background-color: var(--lavanda);
+    color: var(--azul-bebe);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--fonte-segundaria);
+}
+.caixa.principal{
+    background-color: var(--rosa-bebe);
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+}
+.titulo{
+    font-family: var(--fonte-primaria);
+}
