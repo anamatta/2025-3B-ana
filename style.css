@@ -8,7 +8,7 @@
 
 :root{
     --rosa-bebe: #fdc5f5ff;
-    --lilas: #f7aef8ff;
+    --lilas: rgb(221, 141, 223);
     --lavanda: #b388ebff;
     --azul: #8093f1ff;
     --azul-bebe: #72ddf7ff;
@@ -23,14 +23,15 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    font-family: var(--fonte-segundaria);
+    font-family: var(--fonte-primaria);
+
 }
-.caixa.principal{
-    background-color: var(--rosa-bebe);
+.caixa-principal{
+    background-color: var(--lilas);
     width: 90%;
-    text-align: center;
+    text-align:center;
     padding: 20px;
 }
 .titulo{
-    font-family: var(--fonte-primaria);
+    font-family: var(--fonte-secundaria);
 }
